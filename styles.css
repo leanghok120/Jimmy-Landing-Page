@@ -201,3 +201,16 @@ h3 {
 .sign-item {
   flex: 1;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  height: 65px;
+}
+
+.footer-text {
+  color: #fff;
+  font-size: 18px;
+}
