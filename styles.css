@@ -48,6 +48,13 @@ h1 {
   color: #f9faf8;
 }
 
+h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+}
+
 .content {
   display: flex;
   flex-direction: row;
@@ -74,10 +81,10 @@ img {
   margin-bottom: 50px;
   margin-right: 50px;
   border: 1 white;
-  border-radius: 20px;
+  border-radius: 25px;
 }
 
-.p-header {
+.p-first-section {
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -89,4 +96,39 @@ img {
   height: 40px;
   border: 1px #3882f6;
   border-radius: 10px;
+}
+
+.rows-of-jimmy {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 200px;
+}
+
+/*
+.jimmy-box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /*
+  border: 2px solid #3882f6;
+  width: 325px;
+  height: 350px;
+  border-radius: 20px;
+}
+*/
+
+.jimmy-pictures {
+  border: 3px solid #3882f6;
+  width: 325px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin: 5px 20px 0px 20px;
+}
+
+.p-second-section {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
 }
